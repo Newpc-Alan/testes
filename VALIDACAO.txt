@@ -1,20 +1,22 @@
-VERIFICAÇÕES DA VERSÃO 3.1 LEVE — 08/10/2026
+VERIFICAÇÕES DA VERSÃO 3.2 AUTOMÁTICA — 08/10/2026
 
-• O ZIP anterior estava truncado e sem o diretório central/final.
-• Novo pacote ZIP padrão, método STORE, sem ZIP64, nomes ASCII e caminhos
-  curtos. Não inclui .bin nem MP4; o vídeo é entregue separadamente.
-• Conferência de integridade CRC de todas as entradas e extração completa.
-• Sintaxe JavaScript conferida com node --check.
-• Testes em DOM simulado: entrada abre o seletor local quando não há link;
-  MP4 local abre com metadados simulados; página é recusada como URL de
-  vídeo; duração diferente é recusada; CORS e persistência do link;
-  exploração imediata; sete fichas; janelas dos pontos; voz e restauração
-  do áudio em eventos simulados; cinco desafios; reinício e exploração
-  durante a primeira volta.
+• Vídeo original incluído em media/pantanal.mp4; carregamento iniciado
+  automaticamente, sem seletor de arquivo e sem URL na abertura normal.
+• Caminho relativo resolvido a partir da pasta da aplicação.
+• Leitura local sem crossorigin; HTTPS com CORS para textura de vídeo VR.
+• Links salvos por versões antigas não substituem a fonte da atividade.
+• Sintaxe de JavaScript verificada com node --check.
+• Testes em DOM com eventos de mídia simulados: carregamento automático
+  em HTTPS e file; início sem abrir seletor; nenhuma reprodução antes do
+  clique; URL de administrador carregada automaticamente; erro de arquivo
+  ausente e nova tentativa; proteção de duração; exploração, sete fichas,
+  pontos por cena, narração/áudio, cinco desafios e reinício.
+• Vídeo verificado com ffprobe e hash SHA-256:
+  6fabec4cbd4822a35886fd212062371265620cdbae53870f73297096dc06fa77.
+  Duração: 475,120272 s. Tamanho: 74.171.461 bytes.
+• ZIP padrão STORE, sem ZIP64, escrito até o final antes de ser publicado.
+• CRC de todas as entradas e extração completa conferidos.
 
 Não houve validação visual desta versão num navegador real nem teste
 físico em Meta Quest. Os eventos de mídia foram simulados nos testes de
-lógica, portanto não comprovam reprodução, áudio audível ou desempenho.
-O vídeo de 7min55s é idêntico ao da versão V2: 74.171.461 bytes,
-SHA-256 6fabec4cbd4822a35886fd212062371265620cdbae53870f73297096dc06fa77.
-Sua configuração remota exige o upload e o link correto na Webnode.
+lógica; eles não comprovam reprodução, áudio audível ou desempenho.
