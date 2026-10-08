@@ -1,0 +1,65 @@
+PANTANAL IMERSIVO — VERSÃO 3.1 LEVE
+08/10/2026
+
+ABRIR NO WINDOWS
+1. Clique com o botão direito em Pantanal_Imersivo_VR.zip e escolha
+   “Extrair Tudo”. Abra a pasta extraída, não o conteúdo dentro do ZIP.
+2. Abra index.html no Chrome ou Edge.
+3. Clique em “Selecionar vídeo no aparelho” e escolha o arquivo
+   Pantanal_Interativo_Video_Webnode.mp4 entregue separadamente.
+4. Quando aparecer “Vídeo pronto”, clique em “Explorar animais agora”.
+
+O vídeo deve ter 7min55s. Seus pontos e suas fichas foram revisados para
+esse vídeo. O documentário de 25 minutos não corresponde às marcações.
+O ZIP leve contém a aplicação e as imagens; não inclui o vídeo nem as
+quatro partes .bin. O MP4 separado tem cerca de 74,2 MB.
+
+USAR A WEBNODE
+Envie o MP4 de 7min55s como arquivo para download à página Base Teste e
+publique. Copie o endereço do link direto do arquivo MP4. Na abertura da
+aplicação, expanda “Usar vídeo da Webnode”, cole o link e clique em
+“Abrir vídeo hospedado”. Aguarde e escolha “Explorar animais agora”.
+A URL Base Teste é uma página: ela não substitui o link direto do MP4.
+O endereço informado fica salvo somente no navegador atual.
+
+PARA TODA A TURMA
+Depois de publicar o MP4, cole o link direto em config.js, na propriedade
+url entre as aspas. Publique a aplicação no GitHub Pages mantendo scripts,
+assets e vendor na mesma estrutura. Envie os arquivos extraídos, não o ZIP.
+Use a entrada pantanal-v3.html ou index.html. A entrada pantanal-v2.html
+também abre esta atualização para preservar links anteriores.
+O site e o repositório não foram modificados automaticamente.
+
+RECURSOS
+• Sete animais com fichas e explicações por voz.
+• Quatro temas de ambiente e cinco desafios.
+• Pontos clicáveis em cenas revisadas do vídeo.
+• Entrada direta na exploração, ou exibição completa antes de explorar.
+• Os desafios são liberados após conhecer os sete animais.
+• Durante a explicação por voz, o áudio original é silenciado e restaurado
+  ao terminar. A imagem continua em movimento.
+• Sem login. A escolha do arquivo local não envia esse arquivo a um serviço.
+
+META QUEST 3S
+Abra a aplicação publicada em HTTPS no navegador dos óculos, carregue o
+vídeo e escolha “Explorar animais em VR”. Use o gatilho para selecionar;
+o analógico muda cenas e tamanho. A/X aciona voz ou som e B/Y volta ao
+caderno. Os botões virtuais também oferecem esses comandos. Sem controles
+reconhecidos, a seleção por olhar fica disponível.
+O funcionamento físico nos óculos ainda precisa de verificação.
+
+LIMITES
+Os animais são identificados por tempos e posições revisados. Não há
+reconhecimento automático por IA de novos vídeos. Para outro vídeo,
+é preciso revisar o conteúdo e suas marcações. Um vídeo comum pode ser
+usado nesta experiência interativa em tela ou sala VR; não é preciso
+que a filmagem seja 360°. O vídeo também não é transformado em paisagem 360°.
+As fichas e suas referências foram preservadas; consulte FONTES.txt.
+O prazo de preparação da mídia é de até 20 segundos; depois disso,
+a tela informa o erro e permite nova tentativa ou escolha de arquivo local.
+
+ARQUIVO CORRIGIDO
+O ZIP anterior estava incompleto, sem seu diretório final. Este pacote
+foi refeito em formato ZIP padrão, sem compactação e sem ZIP64, com nomes
+de arquivos simples. Seus arquivos e verificações de integridade foram
+conferidos antes da entrega. Veja VALIDACAO.txt para os limites dos testes.

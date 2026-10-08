@@ -1,0 +1,20 @@
+VERIFICAÇÕES DA VERSÃO 3.1 LEVE — 08/10/2026
+
+• O ZIP anterior estava truncado e sem o diretório central/final.
+• Novo pacote ZIP padrão, método STORE, sem ZIP64, nomes ASCII e caminhos
+  curtos. Não inclui .bin nem MP4; o vídeo é entregue separadamente.
+• Conferência de integridade CRC de todas as entradas e extração completa.
+• Sintaxe JavaScript conferida com node --check.
+• Testes em DOM simulado: entrada abre o seletor local quando não há link;
+  MP4 local abre com metadados simulados; página é recusada como URL de
+  vídeo; duração diferente é recusada; CORS e persistência do link;
+  exploração imediata; sete fichas; janelas dos pontos; voz e restauração
+  do áudio em eventos simulados; cinco desafios; reinício e exploração
+  durante a primeira volta.
+
+Não houve validação visual desta versão num navegador real nem teste
+físico em Meta Quest. Os eventos de mídia foram simulados nos testes de
+lógica, portanto não comprovam reprodução, áudio audível ou desempenho.
+O vídeo de 7min55s é idêntico ao da versão V2: 74.171.461 bytes,
+SHA-256 6fabec4cbd4822a35886fd212062371265620cdbae53870f73297096dc06fa77.
+Sua configuração remota exige o upload e o link correto na Webnode.

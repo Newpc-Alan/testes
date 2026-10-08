@@ -1,0 +1,83 @@
+PANTANAL IMERSIVO — REFERÊNCIAS
+Consultas em 06/10/2026. Fichas resumidas e redigidas em português para
+esta atividade; não são transcrições das fontes.
+
+VÍDEO
+“Características e Curiosidades do PANTANAL — Entenda o Clima, Vegetação
+e Animais do BIOMA PANTANAL”, Circuito Ambiental.
+Arquivo enviado pelo usuário; áudio, sequência completa e identificações
+originais preservados na cópia de reprodução. As miniaturas e a capa foram
+extraídas do mesmo vídeo. Não foi necessário obter imagens de outros sites.
+
+ONÇA-PINTADA
+Zoológico de Brasília — Onça-pintada / Panthera onca
+https://www.zoo.df.gov.br/onca-pintada-2
+https://zoo.df.gov.br/onca-pintada-panthera-onca
+Características, alimentação carnívora, natação e conservação.
+
+JACARÉ
+Instituto Nacional de Pesquisa do Pantanal — “Eu sou o Jacaré-do-Pantanal!
+Você me conhece?” / Caiman yacare
+https://www.gov.br/inpp/pt-br/pesquisas/publicacoes-do-inpp/popularizacao-da-ciencia/folders/2025/jacare-do-pantanal.pdf
+Embrapa Pantanal — Como o jacaré-do-pantanal, Caiman yacare, resiste
+a períodos secos na região central do Pantanal
+https://www.infoteca.cnptia.embrapa.br/handle/doc/812030
+A ficha usa a espécie como referência. O vídeo identifica apenas “Jacaré”.
+
+TUIUIÚ
+Museu do Cerrado — Tuiuiú / Jabiru mycteria
+https://museucerrado.com.br/tuiuiu/
+Descrição morfológica: corpo branco, cabeça e pescoço pretos, faixa vermelha.
+
+ARIRANHA
+Museu Paraense Emílio Goeldi — Ariranha: um bicho família
+https://www.gov.br/museugoeldi/pt-br/arquivos/noticias/ariranha-um-bicho-familia
+Corpo, pelagem, membranas entre os dedos e comunicação por sons.
+
+CAPIVARA
+Brasília Ambiental — Características Gerais das Capivaras
+https://www.ibram.df.gov.br/caracteristicas-gerais-das-capivaras/
+Identificação, alimentação herbívora, vida em grupo e associação com a água.
+
+ANTA
+Zoológico de Brasília — Anta / Tapirus terrestris
+https://www.zoo.df.gov.br/anta
+Identificação e alimentação herbívora; observação visual guiada do focinho.
+
+TAMANDUÁ-BANDEIRA
+Zoológico de Brasília — Tamanduá-bandeira / Myrmecophaga tridactyla
+https://www.zoo.df.gov.br/tamandua-bandeira
+https://zoo.df.gov.br/tamandua-bandeira-myrmecophaga-tridactyla
+Alimentação, focinho/língua e ameaças de conservação.
+
+ÁGUAS, CLIMA E VEGETAÇÃO
+Instituto Nacional de Pesquisa do Pantanal — Sobre o Pantanal
+https://www.gov.br/inpp/pt-br/o-pantanal/pantanal-maior-planicie-alagavel-e-patrimonio-natural-da-humanidade
+Alternância entre cheias e secas, mosaico de ambientes e condicionantes
+da paisagem. Não foram acrescentadas contagens de espécies ou percentuais
+que dependem de recorte geográfico e data.
+
+CONSERVAÇÃO
+Ministério do Meio Ambiente e Mudança do Clima — PPPantanal, 2024
+https://www.gov.br/mma/pt-br/assuntos/controle-ao-desmatamento-queimadas-e-ordenamento-ambiental-territorial/controle-do-desmatamento-1/pppantanal/pppantanal_2024.pdf
+Página de apresentação e consulta do plano:
+https://www.gov.br/participamaisbrasil/plano-de-acao-para-prevencao-e-controle-do-desmatamento-e-das-queimadas-no-pantanal-
+Fichas e desafios enfatizam prevenção de incêndios e proteção de rios
+e vegetação. As perguntas de observação foram criadas para a atividade.
+
+IMPLEMENTAÇÃO
+A-Frame 1.7.1 — incluído localmente com licença MIT em vendor.
+https://aframe.io/docs/1.7.0/introduction/
+WebXR Gamepads Module — fontes da sessão e estados de botões/eixos
+https://immersive-web.github.io/webxr-gamepads-module/
+Three.js — WebXRManager, espaços de apontamento dos controles
+https://threejs.org/docs/pages/WebXRManager.html
+A base de controles foi reaproveitada da versão Coração V4 desta conversa.
+Não há dependência de perfis ou modelos de controles baixados em tempo real.
+
+INICIALIZAÇÃO E PUBLICAÇÃO — V2
+Limites de envio de arquivos pelo navegador do GitHub:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+Reprodução e tratamento de bloqueio do navegador:
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
+Consultados em 06/10/2026.

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#102b25">
+<title>Pantanal Imersivo | Portal 360º VR</title>
+<link rel="icon" href="assets/icone.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=3.1">
+<script defer src="config.js?v=3.1"></script><script defer src="content.js?v=3.1"></script><script defer src="xr-controls.js?v=3.1"></script><script defer src="media.js?v=3.1"></script><script defer src="app.js?v=3.1"></script><script defer src="xr-view.js?v=3.1"></script>
+</head>
+<body data-phase="intro">
+<div id="app">
+<main id="stage" aria-label="Expedição interativa ao Pantanal">
+ <video id="film" poster="assets/capa.jpg" preload="none" crossorigin="anonymous" loop playsinline webkit-playsinline></video>
+ <div id="hotspots" aria-label="Animais em cena"></div><div class="shade"></div>
+</main>
+<header class="topbar"><div class="brand"><img src="assets/icone.svg" alt=""><span>PORTAL <b>360º VR</b><small>PANTANAL · V3.1</small></span></div><div class="mode" id="mode-badge">EXPEDIÇÃO IMERSIVA</div><button id="vr-button">Entrar em VR ↗</button></header>
+<section id="intro" aria-labelledby="intro-title"><p class="eyebrow">EXPEDIÇÃO 02 / BIOMAS DO BRASIL</p><h1 id="intro-title">Pantanal<span>A vida acompanha<br>as águas.</span></h1><p class="intro-copy">Encontre os animais nas cenas, abra suas fichas e ouça as explicações. Explore agora ou acompanhe primeiro a viagem completa.</p>
+ <div id="load-status" aria-live="polite"><p id="load-message">Carregue o vídeo para começar a expedição.</p><progress id="load-progress" max="100" value="0" hidden aria-label="Carregamento do vídeo"></progress><p id="load-help" hidden></p></div>
+ <div class="intro-actions"><button id="start" class="primary">↓ Carregar vídeo</button><button id="start-explore" class="primary" hidden>Explorar animais agora</button><button id="watch-flat" hidden>Assistir na tela</button></div>
+ <details id="source-settings"><summary>Usar vídeo da Webnode</summary>
+ <form id="remote-form"><label for="remote-url">Link direto do vídeo desta atividade</label><input id="remote-url" type="url" placeholder="https://…/Pantanal_Interativo_Video_Webnode.mp4" autocomplete="off" required><button id="apply-url" type="submit">Abrir vídeo hospedado</button></form>
+ <p>Use o MP4 de 7min55s que acompanha esta atividade. As cenas e os pontos dos animais correspondem a esse vídeo.</p><button id="use-package" class="text-button" type="button">Limpar link e selecionar vídeo no aparelho</button></details>
+ <button id="choose-video" class="text-button">Selecionar vídeo original no aparelho</button><input id="local-video" type="file" accept="video/mp4,.mp4" hidden>
+ <div class="intro-meta"><span><b>07:55</b> de descoberta</span><span><b>7 animais</b> para conhecer</span><span><b>5 desafios</b> para a turma</span></div><p class="intro-note">Fichas narradas · pontos revisados por cena · sem login</p></section>
+<aside id="explorer" hidden aria-label="Caderno de exploração">
+ <div class="panel-heading"><span class="eyebrow" id="panel-eyebrow">CADERNO DE CAMPO</span><button id="close-panel" class="icon-button" aria-label="Recolher caderno">×</button></div>
+ <nav id="tabs" aria-label="Conteúdo"><button data-tab="fauna" class="active">Fauna</button><button data-tab="ambientes">Ambientes</button><button data-tab="cenas">Cenas</button></nav>
+ <div id="catalog"></div><div class="pagination" id="pagination"><button id="prev-page" aria-label="Página anterior">←</button><span id="page-number"></span><button id="next-page" aria-label="Próxima página">→</button></div>
+ <section id="card" hidden aria-live="polite"><p id="scientific"></p><h2 id="card-title"></h2><div id="card-page"></div><p id="card-body"></p><p id="card-feedback" hidden></p><div id="card-actions"></div><a id="card-source" target="_blank" rel="noopener noreferrer">Fonte da ficha ↗</a></section>
+ <div class="progress-note"><div><span>Descobertas</span><b id="discovered">0 / 11</b></div><i><em id="discovered-bar"></em></i><p>Abra as 7 fichas de animais para liberar os desafios.</p></div>
+</aside>
+<nav id="tools" aria-label="Ferramentas" hidden><button id="open-notebook">☷ Caderno de campo</button><button id="smaller">− Diminuir imagem</button><button id="larger">+ Ampliar imagem</button><button id="reset-size">⤢ Tamanho inicial</button><button id="quiz" disabled>◇ Desafios · 0/7</button></nav>
+<div id="watch-note" hidden><i></i><div><b>Primeiro, acompanhe a viagem.</b><span id="watch-message">As interações serão liberadas ao final do vídeo.</span></div><button id="explore-during">Explorar agora</button></div>
+<section id="playback-alert" hidden aria-live="polite"><b>O vídeo aguarda sua ação.</b><p id="playback-message">Selecione o botão para continuar com som.</p><button id="retry-play" class="primary">▶ Continuar vídeo</button></section>
+<div id="chapter-tag" hidden><span>AGORA NA EXPEDIÇÃO</span><b id="chapter-title"></b></div>
+<footer class="playerbar"><button id="resume" hidden>▶ Continuar vídeo</button><button id="audio">Som ligado</button><span id="time">00:00 / 07:55</span><div class="timeline" aria-label="Progresso do vídeo"><i id="time-bar"></i></div><button id="restart">Rever do início</button><button id="fullscreen">Tela cheia ⛶</button></footer>
+<p class="credit">Vídeo: Circuito Ambiental · Interações: Portal 360º VR</p><p id="status" role="status"></p>
+</div>
+<div id="xr-host" aria-hidden="true"></div><noscript>Ative o JavaScript para iniciar a experiência.</noscript>
+</body></html>
